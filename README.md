@@ -59,6 +59,7 @@ The **Leader key** is a way of extending the power of VIM's shortcuts by using s
 | `Ctrl-t` | Toggle NerdTree |
 | `Ctrl-n` | Move focus to NERDTree window |
 | `Ctrl-d` | Toggle Terminal below current tab |
+| `Ctrl-p` | Open Files with fzf |
 | `,cc` | Comment out the current line or text selected in visual mode. |
 | `,cu` | Uncomments the selected line(s). [Read More](https://github.com/preservim/nerdcommenter#default-mappings) |
 
@@ -83,5 +84,9 @@ The **Leader key** is a way of extending the power of VIM's shortcuts by using s
 | [cespare/vim-toml](https://github.com/cespare/vim-toml) | :white_check_mark: | | toml |
 | [hashivim/vim-vagrant](https://github.com/hashivim/vim-vagrant) | :white_check_mark: | | vagrant |
 | [stephpy/vim-yaml](https://github.com/stephpy/vim-yaml) | :white_check_mark: | | yaml |
+| [junegunn/fzf](https://github.com/junegunn/fzf) | | | |
+| [junegunn/fzf.vim](https://github.com/junegunn/fzf.vim) | | | |
+| [pearofducks/ansible-vim](https://github.com/pearofducks/ansible-vim) | | | |
+| [pangloss/vim-javascript](https://github.com/pangloss/vim-javascript) | | | |
 
 <br>Made with :heart: for DevOps Engineers by DevOps Engineer

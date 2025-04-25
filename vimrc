@@ -26,6 +26,10 @@ Plug 'hashivim/vim-terraform', {'for':['hcl','terraform','tf']}
 Plug 'cespare/vim-toml', {'for':'toml'}
 Plug 'hashivim/vim-vagrant', {'for':['vagrant','Vagrantfile']}
 Plug 'stephpy/vim-yaml', {'for':['yaml', 'yml']}
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
+Plug 'pangloss/vim-javascript'
+Plug 'pearofducks/ansible-vim'
 
 call plug#end()
 
@@ -130,3 +134,8 @@ augroup autosourcing
     autocmd!
     autocmd BufWritePost .vimrc source %
 augroup END
+
+" Use Ctrl+P for :Files
+nnoremap <C-p> :Files <Cr>
+
+set directory^=$HOME/.vim/swap//
