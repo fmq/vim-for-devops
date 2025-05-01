@@ -138,4 +138,4 @@ augroup END
 " Use Ctrl+P for :Files
 nnoremap <C-p> :Files <Cr>
 
-set directory^=$HOME/.vim/swap//
+set directory=$HOME/.vim/swap//
